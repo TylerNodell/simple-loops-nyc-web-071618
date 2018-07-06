@@ -11,7 +11,7 @@ def loop_iterator(number_of_times)
   @phrase = "Welcome to Flatiron School's Web Development Course!"
   number = 0
   loop do
-    puts phrase
+    puts @phrase
     break if number == number_of_times
     number+=1
   end
