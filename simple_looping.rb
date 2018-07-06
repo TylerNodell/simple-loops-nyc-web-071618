@@ -13,7 +13,7 @@ def loop_iterator(number_of_times)
   loop do
     puts phrase
     break if number == number_of_times
-    number++
+    number+=1
   end
 end
 
@@ -30,7 +30,7 @@ def while_iterator(number_of_times)
   counter = 0
   while counter <= number_of_times
     puts @phrase
-    counter++
+    counter+=1
   end
 end
 
@@ -39,7 +39,7 @@ def until_iterator(number_of_times)
   # hint: use a counter to tell the until loop when to stop!
   until counter == number_of_times
     puts @phrase
-    counter++
+    counter+=1
   end
 end
 
